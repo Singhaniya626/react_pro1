@@ -19,4 +19,5 @@ bun dev
 ```
 
 ## Live versal  URL.
-    https://reactpro1.vercel.app/
+
+<a href="https://reactpro1.vercel.app/" target="_blank" rel="noopener noreferrer">https://reactpro1.vercel.app/</a>
