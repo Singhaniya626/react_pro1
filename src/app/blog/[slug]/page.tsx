@@ -1,9 +1,9 @@
 async function getSingleBlog(slug: string) {
-    const res = await fetch(`https://example.com/wp-json/wp/v2/posts?slug=${slug}`);
+    const res = await fetch(`https://1solutions.biz/wp-json/wp/v2/posts?slug=${slug}`);
     const data = await res.json();
     return data[0];
   }
-  
+
   export default async function SingleBlogPage({ params }: { params: { slug: string } }) {
     const post = await getSingleBlog(params.slug);
   
