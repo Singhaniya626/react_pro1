@@ -5,7 +5,12 @@ export default function Header(): JSX.Element {
     <header className="bg-white shadow-sm">
       <div className="max-w-6xl mx-auto px-4 py-4 flex items-center justify-between">
         <div className="text-2xl font-bold">
-          <Link href="/">LOGO</Link>
+          {/* <Link href="/">LOGO</Link> */}
+          <img 
+              src="logo.png" 
+              alt="Xiaomi"
+              width={70} 
+          />
         </div>
 
         <nav className="space-x-6">

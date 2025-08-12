@@ -2,11 +2,12 @@
 import { useState } from 'react';
 
 const imgs = [
-  'https://source.unsplash.com/600x600/?nature,1',
-  'https://source.unsplash.com/600x600/?nature,2',
-  'https://source.unsplash.com/600x600/?nature,3',
-  'https://source.unsplash.com/600x600/?nature,4',
-  'https://source.unsplash.com/600x600/?nature,5'
+  'slider/1.jpg',
+  'slider/2.jpg',
+  'slider/3.jpg',
+  'slider/4.jpg',
+  'slider/5.jpg',
+  'slider/6.jpg'
 ];
 
 export default function ImageSliderGrid(): JSX.Element {

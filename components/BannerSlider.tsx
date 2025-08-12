@@ -5,17 +5,17 @@ const slides = [
   {
     title: 'Welcome to Our Site',
     subtitle: 'High quality services',
-    img: 'https://source.unsplash.com/1200x500/?nature,water'
+    img: 'banner/banner-1.webp'
   },
   {
     title: 'Awesome Design',
     subtitle: 'Modern & Clean',
-    img: 'https://source.unsplash.com/1200x500/?design,web'
+    img: 'banner/banner-2.webp'
   },
   {
     title: 'Fast & Reliable',
     subtitle: 'Built for performance',
-    img: 'https://source.unsplash.com/1200x500/?technology'
+    img: 'banner/banner-3.webp'
   }
 ];
 
