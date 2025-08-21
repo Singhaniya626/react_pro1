@@ -1,4 +1,6 @@
 import Link from 'next/link';
+import Image from 'next/image';
+
 
 export default function Header(): JSX.Element {
   return (
@@ -6,11 +8,13 @@ export default function Header(): JSX.Element {
       <div className="max-w-6xl mx-auto px-4 py-4 flex items-center justify-between">
         <div className="text-2xl font-bold">
           {/* <Link href="/">LOGO</Link> */}
-          <img 
-              src="logo.png" 
+            <Image 
+              src="/logo.png" 
               alt="Xiaomi"
-              width={70} 
-          />
+              width={70}
+              height={70}
+              priority={true}
+            />
         </div>
 
         <nav className="space-x-6">
