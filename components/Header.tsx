@@ -2,7 +2,7 @@ import Link from 'next/link';
 import Image from 'next/image';
 
 
-export default function Header(): JSX.Element {
+export default function Header(){
   return (
     <header className="bg-white shadow-sm">
       <div className="max-w-6xl mx-auto px-4 py-4 flex items-center justify-between">

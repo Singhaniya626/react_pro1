@@ -1,4 +1,4 @@
-export default function AboutSection(): JSX.Element {
+export default function AboutSection() {
     return (
       <section className="py-12">
         <div className="max-w-5xl mx-auto px-4 grid md:grid-cols-2 gap-6 items-center">

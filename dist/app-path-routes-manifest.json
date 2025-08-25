@@ -1,0 +1,10 @@
+{
+  "/_not-found/page": "/_not-found",
+  "/favicon.ico/route": "/favicon.ico",
+  "/blog/[slug]/page": "/blog/[slug]",
+  "/blog/page": "/blog",
+  "/about/page": "/about",
+  "/contact/page": "/contact",
+  "/page": "/",
+  "/tailwind-demo/page": "/tailwind-demo"
+}

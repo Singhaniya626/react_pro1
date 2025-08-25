@@ -1,4 +1,4 @@
-export default function CardSection(): JSX.Element {
+export default function CardSection() {
     return (
         <section className="py-12">
             <div className="mx-auto px-4 grid md:grid-cols-4 gap-6 items-center">

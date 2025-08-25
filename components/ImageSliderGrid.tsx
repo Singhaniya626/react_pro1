@@ -11,7 +11,7 @@ const imgs = [
   'slider/6.jpg'
 ];
 
-export default function ImageSliderGrid(): JSX.Element {
+export default function ImageSliderGrid() {
   const [start, setStart] = useState(0);
 
   const prev = () => setStart((s) => Math.max(0, s - 1));

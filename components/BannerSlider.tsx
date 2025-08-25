@@ -19,7 +19,7 @@ const slides = [
   }
 ];
 
-export default function BannerSlider(): JSX.Element {
+export default function BannerSlider(){
   const [index, setIndex] = useState(0);
 
   useEffect(() => {

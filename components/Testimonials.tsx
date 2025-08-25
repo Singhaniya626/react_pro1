@@ -7,7 +7,7 @@ const data = [
   { name: 'Aman', text: 'Loved the result.' }
 ];
 
-export default function Testimonials(): JSX.Element {
+export default function Testimonials(){
   const [i, setI] = useState(0);
 
   useEffect(() => {
